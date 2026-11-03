@@ -1,0 +1,106 @@
+/* Encabezado */
+header {
+    background-color: #245b37;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Menu de navegacion */
+nav {
+    background-color: #183d27;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Contenido principal */
+main {
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #245b37;
+}
+
+/* Bienvenida */
+.bienvenida {
+    text-align: center;
+    background-color: #e1eee3;
+}
+
+/* Productos */
+.producto {
+    background-color: #f5f7f5;
+    margin: 15px 0;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+.producto h3 {
+    color: #245b37;
+}
+
+.precio {
+    color: #245b37;
+    font-weight: bold;
+}
+
+/* Botones */
+button {
+    background-color: #245b37;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pie de pagina */
+footer {
+    background-color: #183d27;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Adaptacion para celulares */
+@media (max-width: 600px) {
+
+    nav li {
+        display: block;
+        margin: 10px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+}
